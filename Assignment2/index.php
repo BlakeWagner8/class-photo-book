@@ -35,7 +35,7 @@
 					<div class="col-12 col-sm-6 col-lg-3">
 				<div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
 				<!-- Team Thumb-->
-				<div class="advisor_thumb"><a href="detail.php?index=<?= $i ?>"><img src="<?php echo $students[$_GET['index']]['picture']; ?>" alt=""></a>
+				<div class="advisor_thumb"><a href="detail.php?index=<?= $i ?>"><img src="<?php echo $students[$i]['picture']; ?>" alt=""></a>
 				<!-- Social Info-->
 				<div class="social-info"><a href="detail.php?index=<?= $i ?>"><i class="fa fa-facebook"></i></a><a href="detail.php?index=<?= $i ?>"><i class="fa fa-twitter"></i></a><a href="detail.php?index=<?= $i ?>"><i class="fa fa-linkedin"></i></a></div>
 				</div>

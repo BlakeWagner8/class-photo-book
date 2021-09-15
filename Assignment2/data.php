@@ -9,10 +9,15 @@
 							"Java" => "70",
 							"HTML" => "70",
 							"Linux" => "60",
-							"Windows" => "60",
 							],
 						"company" => "FBI",
 						"picture" => 'https://bootdey.com/img/Content/avatar/avatar1.png',
+						"birthday" => "2002-08-28",
+						"intro" => "Blake is a student at Northern Kentucky University. He grew up in Florence Kentucky and went to Dixie 
+									Heights High School. He decided to go into the cybersecurity field for his interest in computers and 
+									wants to eventually work for the FBI or NSA. He loves watching sports, playing video games, hiking, 
+									travelling, or just hanging out with friends.",
+						"fact" => "Blake has been to 7 different countries outside the United States."
 						],
 						
 					[
@@ -26,6 +31,11 @@
 							],
 						"company" => "Apple",
 						"picture" => 'https://bootdey.com/img/Content/avatar/avatar7.png',
+						"birthday" => "2000-10-16",
+						"intro" => "Nazrul is a student majoring in CIT an Northern Kentucky University. He is from California and went to University
+									of Cinncinati for two years before transferring. He has been very interested in computers since he was little because
+									because his dad works in the same field. He enjoys playing video games, watching sports, and skateboarding.",
+						"fact" => "He helped his dad build his own computer when he was 15, and has helped build 2 other computers as well."
 						],
 						
 					[
@@ -39,6 +49,11 @@
 							],
 						"company" => "Google",
 						"picture" => "https://bootdey.com/img/Content/avatar/avatar6.png",
+						"birthday" => "2003-04-11",
+						"intro" => "Riyadh is a freshman at Northern Kentucky University and is from New York City. He has been programming for 7 years and 
+									made a program for his own small scale video game. He is very interested in game design and development and wants to 
+									create video games with his career. He loves drawing and playing video games and also collects old video games.",
+						"fact" => "Riyadh won a national competition for designing a video game character when he was a junior in high school."
 						],
 					[
 						"name" => "Niloy",
@@ -51,6 +66,11 @@
 							],
 						"company" => "Amazon",
 						"picture" => "https://bootdey.com/img/Content/avatar/avatar2.png",
+						"birthday" => "1999-06-19",
+						"intro" => "Niloy is a senior at Northern Kentucky University and is interning for Amazon. He grew up near Kansas City, but decided
+									to go to NKU because that is where his family is from. He originally wanted to do Accounting and Finance, but decided to 
+									switch to Data Analyst. He loves watching Kansas City sports and played baseball and football in high school.",
+						"fact" => "Niloy has family from Spain and goes to visit them every summer."
 						],
 				);
 ?>

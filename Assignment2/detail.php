@@ -27,7 +27,7 @@
           <img class="w-100" src="<?php echo $students[$_GET['index']]['picture']; ?>" alt="">
         </div>
         <div class="mb-2 d-flex">
-          <h4 class="font-weight-normal"><?php echo "Your name" ?></h4>
+          <h4 class="font-weight-normal"><?php echo $students[$_GET['index']]['name'] ?></h4>
           <div class="social d-flex ml-auto">
             <p class="pr-2 font-weight-normal"><?php echo "Follow on:" ?></p>
             <a href="#" class="text-muted mr-1">
@@ -63,10 +63,10 @@
       </div>
       <div class="col-lg-7 col-md-6 pl-xl-3">
         <h5 class="font-weight-normal"><?php echo 'Short intro' ?></h5>
-			<p><?php echo 'Blake is a student at Northern Kentucky University. He grew up in Florence Kentucky and went to Dixie Heights High School. He decided to go into the cybersecurity field for his interest
-			in computers and wants to eventually work for the FBI or NSA. He loves watching sports, playing video games, hiking, travelling, or just hanging out with friends.'?></p>
+			<p><?php echo $students[$_GET['index']]['intro'] ?></p>
         <div class="my-2 bg-light p-2">
-          <p class="font-italic mb-0"><?php echo 'The price is something not necessarily defined as financial. It could be time, effort, sacrifice, money or perhaps, something else.'?></p>
+          <h5 class="font-weight-normal"><?php echo 'Fun fact'?></h5>
+			<p><?php echo $students[$_GET['index']]['fact']?></p>
         </div>
         <div class="mb-2 mt-2 pt-1">
           <h5 class="font-weight-normal"><?php echo 'Top skills'?></h5>
@@ -87,11 +87,6 @@
 		}
 		?>
 		
-		
-		
-			<h5 class="font-weight-normal"><?php echo 'Fun fact'?></h5>
-			<p><?php echo 'It is truly amazing the damage that we, as parents, can inflict on our children. So why do we do it? For the most part, we don’t do it intentionally or with malice. In the majority of cases, the cause is a 
-			well-meaning but unskilled or un-thinking parent, who says the wrong thing at the wrong time, and the message sticks – as simple as that!'?></p>
       </div>
 		<a href="index.php"><?php echo 'Back to Home Page'?></a>
     </div>
